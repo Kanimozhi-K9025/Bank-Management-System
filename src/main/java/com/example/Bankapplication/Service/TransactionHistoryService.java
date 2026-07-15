@@ -1,12 +1,12 @@
-package com.example.Bankapplication.Service;
+package com.example.Bankapplication.service;
 
 import com.example.Bankapplication.Dto.TransactionHistoryDto;
-import com.example.Bankapplication.Entity.TransactionHistory;
-import com.example.Bankapplication.Repository.TransactionHistoryRepository;
+import com.example.Bankapplication.entity.TransactionHistory;
+import com.example.Bankapplication.repository.TransactionHistoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.example.Bankapplication.Entity.Account;
-import com.example.Bankapplication.Repository.AccountRepository;
+import com.example.Bankapplication.entity.Account;
+import com.example.Bankapplication.repository.AccountRepository;
 
 import java.time.LocalDateTime;
 import java.util.List;

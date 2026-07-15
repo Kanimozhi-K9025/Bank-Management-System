@@ -1,6 +1,6 @@
 package com.example.Bankapplication.controller;
 
-import com.example.Bankapplication.model.Account;
+import com.example.Bankapplication.entity.Account;
 import com.example.Bankapplication.repository.AccountRepository;
 import org.springframework.web.bind.annotation.*;
 

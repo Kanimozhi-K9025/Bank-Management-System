@@ -1,8 +1,8 @@
-package com.example.Bankapplication.Controller;
+package com.example.Bankapplication.controller;
 
 import com.example.Bankapplication.Dto.TransactionHistoryDto;
-import com.example.Bankapplication.Entity.TransactionHistory;
-import com.example.Bankapplication.Service.TransactionHistoryService;
+import com.example.Bankapplication.entity.TransactionHistory;
+import com.example.Bankapplication.service.TransactionHistoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

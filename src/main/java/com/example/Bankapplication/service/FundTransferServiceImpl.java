@@ -1,6 +1,6 @@
 package com.example.Bankapplication.service;
 
-import com.example.Bankapplication.model.Account;
+import com.example.Bankapplication.entity.Account;
 import com.example.Bankapplication.model.FundTransfer;
 import com.example.Bankapplication.repository.AccountRepository;
 import com.example.Bankapplication.repository.FundTransferRepository;
