@@ -5,10 +5,6 @@ target/
 # Maven wrapper
 .mvn/wrapper/maven-wrapper.jar
 
-# Ignore generated target folders inside source (if any)
-!**/src/main/**/target/
-!**/src/test/**/target/
-
 # Compiled Java files
 *.class
 
@@ -36,8 +32,6 @@ target/
 
 # Gradle build
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
 # VS Code
 .vscode/
@@ -45,4 +39,3 @@ build/
 # OS generated files
 .DS_Store
 Thumbs.db
-
